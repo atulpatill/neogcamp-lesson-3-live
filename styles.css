@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 *{
     font-family: 'Righteous', cursive;
+    color: white;
 
 }
 :root {
@@ -51,7 +52,6 @@ hr {
     border-radius: 5px;
     border:2px solid blueviolet ;
 }
-
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -63,10 +63,12 @@ hr {
 .link-primary:hover{
     background-color: wheat;
     color: black;
+    border-radius: 0.5rem;
 }
 .link-secondary:hover{
     background-color: wheat;
     color: black;
+    border-radius: 0.5rem;
 }
 .link-secondary {
     color: var(--primary-color);
@@ -77,9 +79,7 @@ hr {
     margin: 1rem 1rem 1rem 0rem;
 }
 
-/** look into BEM naming convention for CSS **/
 
-/** lists **/
 
 .list-non-bullet {
     list-style: none;
@@ -108,9 +108,9 @@ hr {
     text-align: right;
 }
 
-.navigation .link {
+/* .navigation .link {
     color: white;
-}
+} */
 
 .navigation .link-active {
     font-weight: bold;
@@ -188,4 +188,10 @@ hr {
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+
+.snd-head{
+    text-align: center;
+    padding-top: 1rem;
+    color: blueviolet;
 }
