@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    font-family: 'Righteous', cursive;
 
+}
 :root {
     --primary-color: #831843;
     --off-white: #FCE7F3;
     --dark-gray: #EF4444;
+    background-color: rgb(32, 28, 28);
+    color: white;
 }
 
 body {
@@ -124,6 +129,7 @@ hr {
 
 .section {
     padding: 2rem;
+    background-color: rgb(46, 45, 43);
 }
 
 .section h1 {
@@ -132,7 +138,7 @@ hr {
 }
 
 .ow {
-    background-color: var(--off-white);
+    background-color: var(--off-black);
 }
 
 /** footers **/
